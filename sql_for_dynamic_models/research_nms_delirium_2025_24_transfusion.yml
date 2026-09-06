@@ -1,0 +1,5 @@
+models:
+  - name: research_nms_delirium_2025_24_transfusion
+    description: |
+      輸血のデータを取得する。
+    

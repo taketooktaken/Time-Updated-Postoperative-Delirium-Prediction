@@ -1,0 +1,7 @@
+models:
+  - name: research_nms_delirium_2025_11_blood_gas
+    config:
+      materialized: table
+    description: |
+      blood_gas tableからfeatureを取り出す。
+      blood_gasはlongでデータを保持しているから、pivotしてwideにする。

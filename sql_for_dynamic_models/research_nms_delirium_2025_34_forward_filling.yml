@@ -1,0 +1,6 @@
+models:
+  - name: research_nms_delirium_2025_34_forward_filling
+    config:
+      materialized: table
+    description: |
+      臨床的な判断に基づき、欠損のあるデータをforward_fillingで補完する

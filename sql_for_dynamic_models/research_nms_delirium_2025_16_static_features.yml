@@ -1,0 +1,6 @@
+models:
+  - name: research_nms_delirium_2025_16_static_features
+    config:
+      materialized: table
+    description: |
+      static_featuresを取り出す。

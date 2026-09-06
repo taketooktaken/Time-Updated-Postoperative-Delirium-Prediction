@@ -1,0 +1,7 @@
+
+models:
+  - name: research_nms_delirium_2025_003_outcome_labeling
+    config:
+      materialized: table
+    description: |
+      outcomeを表示する。

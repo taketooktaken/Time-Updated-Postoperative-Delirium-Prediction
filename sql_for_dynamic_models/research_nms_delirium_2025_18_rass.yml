@@ -1,0 +1,6 @@
+models:
+  - name: research_nms_delirium_2025_18_rass
+    config:
+      materialized: table
+    description: |
+      rassのテーブルを作成する。

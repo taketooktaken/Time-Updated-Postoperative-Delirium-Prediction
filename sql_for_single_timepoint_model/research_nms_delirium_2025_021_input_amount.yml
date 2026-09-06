@@ -1,0 +1,4 @@
+models:
+  - name: research_nms_delirium_2025_021_input_amount
+    description: |
+      input_amountのデータを取得する。

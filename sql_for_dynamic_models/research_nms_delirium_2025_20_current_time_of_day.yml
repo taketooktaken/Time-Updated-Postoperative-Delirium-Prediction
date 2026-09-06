@@ -1,0 +1,6 @@
+models:
+  - name: research_nms_delirium_2025_20_current_time_of_day
+    config:
+      materialized: table
+    description: |
+      current time of dayのテーブルを作成する。

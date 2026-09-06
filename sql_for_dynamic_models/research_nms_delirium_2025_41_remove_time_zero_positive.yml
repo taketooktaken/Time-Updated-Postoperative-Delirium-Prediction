@@ -1,0 +1,6 @@
+models:
+  - name: research_nms_delirium_2025_41_remove_time_zero_positive
+    config:
+      materialized: table
+    description: |
+      time_window_index = 0ではhigh risk区間でさえ定義できないので消去した。

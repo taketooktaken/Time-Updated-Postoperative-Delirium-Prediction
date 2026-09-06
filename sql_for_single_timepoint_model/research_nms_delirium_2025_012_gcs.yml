@@ -1,0 +1,19 @@
+models:
+  - name: research_nms_delirium_2025_012_gcs
+    description: |
+      GCSのデータを取得する。24時間のデータを取得するモデル。
+    columns:
+      - name: icu_stay_id
+        type: INTEGER
+      - name: time_window_index
+        type: INTEGER
+      - name: start_time
+        type: TIMESTAMP
+      - name: end_time
+        type: TIMESTAMP
+      - name: gcs_e
+        type: FLOAT
+      - name: gcs_v
+        type: FLOAT
+      - name: gcs_m
+        type: FLOAT
