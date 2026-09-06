@@ -1,0 +1,6 @@
+models:
+  - name: research_nms_delirium_2025_52_select_scheduled_surgery
+    config:
+      materialized: table
+    description: |
+      術後ICUの症例のみに絞った。

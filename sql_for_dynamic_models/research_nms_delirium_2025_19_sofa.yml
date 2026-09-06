@@ -1,0 +1,6 @@
+models:
+  - name: research_nms_delirium_2025_19_sofa
+    config:
+      materialized: table
+    description: |
+      sofaのテーブルを作成する。

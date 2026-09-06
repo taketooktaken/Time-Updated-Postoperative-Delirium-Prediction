@@ -1,0 +1,15 @@
+models:
+  - name: research_nms_delirium_2025_13_weight
+    description: |
+      体重のデータを取得する。
+    columns:
+      - name: icu_stay_id
+        type: INTEGER
+      - name: time_window_index
+        type: INTEGER
+      - name: start_time
+        type: TIMESTAMP
+      - name: end_time
+        type: TIMESTAMP
+      - name: body_weight
+        type: FLOAT

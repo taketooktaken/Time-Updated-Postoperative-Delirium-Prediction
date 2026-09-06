@@ -1,0 +1,6 @@
+models:
+  - name: research_nms_delirium_2025_017_mechanical_ventilations
+    config:
+      materialized: table
+    description: |
+      mechanical_ventilationsのテーブルを作成する。

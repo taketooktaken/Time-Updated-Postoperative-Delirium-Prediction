@@ -1,0 +1,5 @@
+models:
+  - name: research_nms_delirium_2025_023_out
+    description: |
+      outのデータを取得する。
+  

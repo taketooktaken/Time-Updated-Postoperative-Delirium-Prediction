@@ -1,0 +1,6 @@
+models:
+  - name: research_nms_delirium_2025_33_derived_features
+    config:
+      materialized: table
+    description: |
+      液体の投与、流出に関するderived featureを作成する。

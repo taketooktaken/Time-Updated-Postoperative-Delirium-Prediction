@@ -1,0 +1,9 @@
+models:
+  - name: research_nms_delirium_2025_031_join_all_features
+    config:
+      materialized: table
+    data_tests:
+      - accepted_aggregated_values:
+          group_by_columns: ["icu_stay_id", "time_window_index"]
+          aggregation: "count(*)"
+          accepted_values: [1]

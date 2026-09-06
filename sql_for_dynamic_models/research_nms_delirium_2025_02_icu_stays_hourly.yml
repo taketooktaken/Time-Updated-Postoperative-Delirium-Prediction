@@ -1,0 +1,6 @@
+models:
+  - name: research_nms_delirium_2025_02_icu_stays_hourly
+    config:
+      materialized: table
+    description: |
+      せん妄予測モデル研究では60分間隔のtime_windowを使用することになったので、患者のicu在室期間を60分ごとのtime_windowに分割する。

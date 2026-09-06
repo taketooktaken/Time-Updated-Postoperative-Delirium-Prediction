@@ -1,0 +1,5 @@
+models:
+  - name: research_nms_delirium_2025_22_drug_active_ingredients
+    description: |
+      薬剤のデータを取得する。
+    

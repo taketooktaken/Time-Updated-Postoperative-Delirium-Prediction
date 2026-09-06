@@ -1,0 +1,6 @@
+models:
+  - name: research_nms_delirium_2025_001_eligibility_criteria
+    config:
+      materialized: table
+    description: |
+      せん妄予測モデル研究のeligibility_criteriaを満たした患者のicu_stay_idを取得したtable.

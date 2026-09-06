@@ -1,0 +1,6 @@
+models:
+  - name: research_nms_delirium_2025_14_vital_measurements
+    config:
+      materialized: table
+    description: |
+      vital_measurements tableからfeatureを取り出す。

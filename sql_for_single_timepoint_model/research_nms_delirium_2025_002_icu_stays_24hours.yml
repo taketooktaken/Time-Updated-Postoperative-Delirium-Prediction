@@ -1,0 +1,6 @@
+models:
+  - name: research_nms_delirium_2025_002_icu_stays_24hours
+    config:
+      materialized: table
+    description: |
+      入室時点でのデータを用いてせん妄発症を予測するモデルを作るため作成。入室後から24hのデータのみを使用する

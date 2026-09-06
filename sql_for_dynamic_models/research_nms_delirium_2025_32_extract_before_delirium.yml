@@ -1,0 +1,5 @@
+models:
+  - name: research_nms_delirium_2025_32_extract_before_delirium
+    description: |
+      03_outcomeで、初めてcamicu = positiveとなるtime_windowを1、それより前を0、それより後を2と割り振った。モデルを回す際には、初めてcamicu = positiveとなるまでのtime_windowを用いるので、delirium_flag = 2のものは除外
+    

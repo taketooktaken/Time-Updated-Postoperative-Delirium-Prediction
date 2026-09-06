@@ -1,0 +1,6 @@
+models:
+  - name: research_nms_delirium_2025_015_laboratory_tests
+    config:
+      materialized: table
+    description: |
+      laboratory_test tableからfeatureを取り出す。laboratory_testはlongでデータを保持しているから、pivotしてwideにする。
