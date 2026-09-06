@@ -6,14 +6,23 @@ The project includes both dynamic, time-updated prediction models and a single-t
 
 ## Table of Contents
 
-- Overview
-- Repository Structure
-- Requirements
-- Usage
-- Dynamic Prediction Models
-- Single-Timepoint 24-Hour Model
-- License
-- Contact
+- [Overview](#overview)
+
+- [Repository Structure](#repository-structure)
+
+- [Requirements](#requirements)
+
+- [Usage](#usage)
+
+  - [Dynamic Prediction Models](#dynamic-prediction-models)
+
+  - [Single-Timepoint 24-Hour Model](#single-timepoint-24-hour-model)
+
+- [Reproducibility](#reproducibility)
+
+- [Contact](#contact)
+
+- [License](#license)
 
 ## Overview
 
@@ -140,10 +149,8 @@ This repository provides the analysis code used for data extraction, preprocessi
 Individual-level patient data from the OneICU database are not included in this repository because of data-use and privacy restrictions. Access to the appropriate OneICU datasets is therefore required to reproduce the complete analysis.
 
 ## Contact
-
-For questions or collaboration inquiries, please contact:
-
-MeDiCU, Inc.
+For questions or collaboration inquiries, please reach out to us by email:
+ - [MeDiCU, Inc.](mailto:info@medicu.co.jp)
 
 ## License
 
